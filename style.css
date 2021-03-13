@@ -1,0 +1,52 @@
+body{
+	background-color: rgb(148, 223, 130);
+}
+#banner{
+	margin: 2%;
+	width:90%;
+	padding: 50px;
+	background-image: linear-gradient(to right,cyan, pink 50%);
+}
+
+#header{
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+#input{
+	width:250px;
+	height: 25px;
+	border: solid lightblack 1px;
+	margin-left:15%;
+}
+
+#button{
+	width: 100px;
+	height: 40px;
+	border: solid white 1px;
+	border-radius: 100px;
+	margin-left: 60%;
+}
+
+#display{
+	display: flex;
+  margin-top: 100px; 
+	margin-left: 50px;
+	width:90%;
+	height:300px;
+	background-color: darkgray;
+	justify-content: center;
+	align-items: center;
+}
+
+#inner-div-1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.inner-div-2{
+	border-top: solid black 1px;
+	transition: all 1s;
+  top:0px;
+}
